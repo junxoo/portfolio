@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* 여백 초기화  */
+* { margin:0; padding:0; }
+
+/* 목록 불릿 없애기 */
+ol, ul { list-style:none; }
+
+/* 하이퍼링크 설정 */
+a:link { text-decoration:none; color:#000; }
+a:hover { text-decoration:none; color:#000; }
+a:visited { text-decoration:none; color:#000; }
+a:active { text-decoration:none; color:#000; }
+a:focus { text-decoration:none; color:#000; }
+
+body {position: relative;}
+.view p {background: #ae0000; display:inline-block; padding: 30px 20px; border-radius: 50%; position: absolute; top: 15%; left: 29%; color: #fff; font-size: 20px;} 
+
+.x {position: absolute; top: 1.8%; right: 21%; opacity: 0.8}
